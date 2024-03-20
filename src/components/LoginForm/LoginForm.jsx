@@ -38,7 +38,8 @@ const LoginForm = () => {
           name="email"
           placeholder="Email"
           required
-          title="Email may contain letters, numbers, an apostrophe, and must be followed by '@' domain name '.' domain suffix. For example Taras@ukr.ua, adrian@gmail.com, JacobM3rcer@hotmail.com"
+          pattern="^[^\s@]+@[^\s@]+\.[^\s@]+$"
+          title="Please enter a valid email address (e.g. example@example.com)."
         />
       </Label>
 
@@ -49,7 +50,8 @@ const LoginForm = () => {
           name="password"
           placeholder="Password"
           required
-          title="Password must contain at least one number and one uppercase and lowercase letter, and at least 8 or more characters. For example TgeV23592, 3Greioct."
+          pattern="^(?=.*\d)(?=.*[a-zA-Z])[a-zA-Z\d]{8,20}$"
+          title="Password must be 8-20 characters long and contain at least one letter and one digit."
         />
       </Label>
 
