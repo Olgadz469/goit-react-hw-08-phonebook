@@ -26,9 +26,9 @@ const Reviews = ({ card }) => {
                         width={20}
                         height={20}
                         fill={
-                          Math.round(reviewer_rating) < i - 1
-                            ? '#ffc531'
-                            : '#f2f4f7'
+                          Math.round(reviewer_rating) < i + 1
+                            ? '#f2f4f7'
+                            : '#ffc531'
                         }
                       >
                         <use href={`${sprite}#icon-star`}></use>
