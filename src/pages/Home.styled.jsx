@@ -1,0 +1,17 @@
+import styled from 'styled-components';
+import Image from '../assets/milky-way-2x.jpg';
+
+export const Wrapper = styled.div`
+  display: flex;
+  flex-direction: column;
+  background-image: url(${Image});
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-size: cover;
+  background-position: center;
+  padding: 0;
+  margin: 0;
+  width: 100%;
+  height: 100vh;
+  overflow: hidden;
+`;
