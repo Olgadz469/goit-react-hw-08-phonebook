@@ -75,7 +75,7 @@ const Modal = ({
 
               <RatingLocationWrap id="rating-wrap">
                 <RatingWrap>
-                  <svg width={20} height={20} fillColor={`#ffc531`}>
+                  <svg width={20} height={20} fill={`#ffc531`}>
                     <use href={`${sprite}#icon-star`}></use>
                   </svg>
 
