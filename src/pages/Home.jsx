@@ -2,7 +2,7 @@ import React from 'react';
 import { Wrapper } from './Home.styled';
 
 const Home = () => {
-  return <Wrapper></Wrapper>;
+  return <Wrapper>hello</Wrapper>;
 };
 
 export default Home;
