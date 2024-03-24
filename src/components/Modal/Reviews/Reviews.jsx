@@ -26,7 +26,7 @@ const Reviews = ({ card }) => {
                         width={20}
                         height={20}
                         fill={
-                          i < Math.round(reviewer_rating)
+                          Math.round(reviewer_rating) < i - 1
                             ? '#ffc531'
                             : '#f2f4f7'
                         }
