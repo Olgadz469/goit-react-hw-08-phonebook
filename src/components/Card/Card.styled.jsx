@@ -99,7 +99,6 @@ export const AddToFavBtn = styled.button`
   svg {
     fill: ${({ $isFavorite }) => ($isFavorite ? '#E44848' : 'transparent')};
     stroke: ${({ $isFavorite }) => ($isFavorite ? 'none' : '#101828')};
-    transition: fill var(--cubic-transition);
   }
 
   @media screen and (min-width: 1440px) {
